@@ -1,0 +1,26 @@
+.features-area {
+    background-color: #f4f6f7;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.pricing-area {
+    background-color: #f4f6f7;
+    padding-top: 0px;
+    padding-bottom: 130px;
+}
+
+
+@media only screen and (min-width: 1500px){
+    .features-area {
+        background-color: #f4f6f7;
+        padding-top: 320px !important;
+        padding-bottom: 130px;
+    }
+}
+
+/* @media only screen and (max-width:500px){
+    section{
+        width: 113vw;
+    }
+} */

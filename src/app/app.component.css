@@ -1,0 +1,110 @@
+
+.companyName{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.mat-toolbar{
+  height: 8vh;
+  background: #0079e2;
+}
+
+div {
+    overflow: inherit;
+}
+
+
+a{
+    font-size: 16px;
+    white-space: normal;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 2px;
+    
+
+}
+
+span{
+    color: white;
+}
+
+.active {
+    background: #00e2a3;
+    width: 45vw;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.font{
+    font-size: 20px;
+
+}
+
+.font2{
+    color: white;
+
+}
+
+.line{
+    border-bottom: 4px solid #af0101;
+    border-radius: 4px;
+
+}
+
+.color{
+    color: gold;
+}
+button{
+    font-size: 110%;
+    min-width: min-content;
+}
+
+.example-icon {
+    padding: 0 14px;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  mat-sidenav-content{
+      font-size: 200%;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .mat-toolbar.mat-primary {
+    background: #ffffff;
+    color: #000;
+}
+
+.mat-sidenav-container{
+    min-height: 93vh !important;
+  }
+
+mat-sidenav{
+    width: 180px;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 80px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+    .mat-toolbar-row, .mat-toolbar-single-row {
+        display: flex;
+        box-sizing: border-box;
+        padding: 0px 20px !important;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        white-space: nowrap;
+    }
+  }
